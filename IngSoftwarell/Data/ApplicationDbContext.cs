@@ -13,7 +13,7 @@ namespace IngSoftwarell.Data
             : base(options)
         {
         }
-        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Cliente> Acceso { get; set; }
     }
     
 }
